@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTMX Example</title>
+    <script src="https://unpkg.com/htmx.org@1.8.3"></script>
+  </head>
+  <body>
+    <button hx-get="/new-content" hx-target="#content">Load Content</button>
+    <div id="content"></div>
+  </body>
+</html>
